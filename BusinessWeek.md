@@ -1,26 +1,11 @@
 <table>
     <tr>
-        <td>123</td>
+        <td>1675-毒垃圾浩劫</td>
     </tr>
 </table>
-
-
-# This is an H1
-
-*   Red
-*   Green
-*   Blue
-
-1.  Bird
-2.  McHale
-3.  Parish
-
-<ol>
-<li>Bird</li>
-<li>McHale</li>
-<li>Parish</li>
-</ol>
-
-> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+###### 前言 
+1.台商回流後的環保議題，有一個標準的檢核企業道德的方式。
+2.財務高手談的仍是產品、服務是否有人需要。
+3.團隊超過30人以後，系統化最重要的就是中層主管的運作。
+4.大陸開始個人要負擔醫療保險，企業要負擔工商、醫療、生育。
+5.大數據BI的呈現架構，應該抓去大項來瞭解。
