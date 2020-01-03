@@ -11,6 +11,9 @@
     >有些會使用動名詞:quit,enjoy,keep,mind
     
     >感官動詞，後面為動名詞或原型動詞:see,watch,look at,hear,listen to,feel,smell,notice
+        
+2.  不一定要有動作的動詞:主詞+be動詞+補語
+3.  否定:助動詞+not+原型動詞/be動詞+not
     
 #### 動名詞
 1.  動名詞與現在分詞要表達的意思不一樣。
@@ -20,8 +23,14 @@
     
     >單音節字母(aeiou)重複字尾:cutting,shopping
 
+    >雙音節字母重複字尾:admitting,但重音在前則不重複:limiting
+    
+    >以c為字尾，加king:mimic->mimicking,picnic->picnicking
+    
+    >qu字母重複字尾:equip->equipping,quit->quitting
 
-
+3.  沒有現在分詞的動詞:
+    >want,love,prefer,wish,believe,need,like,hate,agree,remeber
 
 #### 助動詞
 1.  主詞+助動詞+原型動詞。
