@@ -1,6 +1,6 @@
 <table>
     <tr>
-        <td>超有趣英文文法</td>
+        <td>超有趣英文基礎文法</td>
     </tr>
 </table>
 
