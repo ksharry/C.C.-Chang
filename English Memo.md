@@ -25,9 +25,15 @@
 2.  強調"目前"，常用now,
 3.  不等於動名詞的用法。
 
->繼續狀態的動詞沒有進行式:belong,depend,consist,contain。
+   >繼續狀態的動詞沒有進行式:belong,depend,consist,contain。
 
->感官動詞沒有進行式:look,hear,appear,sound,feel,seem,taste,smell。
+   >感官動詞沒有進行式:look,hear,appear,sound,feel,seem,taste,smell。
 
+#### 現在完成式
+1.  have+過去分詞
+2.  過去發生且狀態一直持續到現在。
+3.  過去的時間:last / since / for
+4.  也可以使用在否定句,i have never seem him.
 
-#### 
+#### 過去式
+
