@@ -36,4 +36,10 @@
 4.  也可以使用在否定句,i have never seem him.
 
 #### 過去式
+1.  主詞+動詞過去式/主詞+助動詞過去式+原型動詞   
+2.  常用時間副詞:yesterday,ago,last,before,just now
+3.  過去分詞有形容詞功能，只能修飾具有感覺的名詞,非過去式。
 
+   >動詞:be動詞,feel,seem,become  +
+   
+   >過去分詞:bored with,embarrassed about,excited about,worried about,interested in,surpised at,tired of,impressed by
