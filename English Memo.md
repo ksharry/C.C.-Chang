@@ -25,8 +25,9 @@
 2.  強調"目前"，常用now,
 3.  不等於動名詞的用法。
 
->繼續狀態的動詞沒有進行式:belong,depend,consist,contain
->感官動詞沒有進行式:look,hear,appear,sound,feel,seem,taste,smell
+>繼續狀態的動詞沒有進行式:belong,depend,consist,contain。
+
+>感官動詞沒有進行式:look,hear,appear,sound,feel,seem,taste,smell。
 
 
 #### 
