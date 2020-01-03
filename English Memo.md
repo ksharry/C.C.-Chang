@@ -43,3 +43,16 @@
    >動詞:be動詞,feel,seem,become  +
    
    >過去分詞:bored with,embarrassed about,excited about,worried about,interested in,surpised at,tired of,impressed by
+   
+#### 未來式
+1.  主詞+will+原型動詞               ->意願較低
+    主詞+be動詞+going to +原型動詞。  ->意願較高
+2.  will的用法:
+    +  未來式
+    +  意願
+    +  經常
+    +  能夠
+    +  大概
+    +  不得不做
+3.  will不會有時間出現。
+    
