@@ -48,11 +48,15 @@
 1.  主詞+will+原型動詞               ->意願較低
     主詞+be動詞+going to +原型動詞。  ->意願較高
 2.  will的用法:
-    +  未來式
-    +  意願
-    +  經常
-    +  能夠
-    +  大概
-    +  不得不做
+    +  未來:David will go home next week.
+    +  意願:The doctor will see you now.
+    +  經常:Accidents will happen.
+    +  能夠:This auditorium will seat one thousand people.
+    +  大概:This will be the house you're looking for.
+    +  必須:No one will leave the examination room before ten o'clock.
 3.  will不會有時間出現。
-    
+
+## 第五章 句子的種類
+ 
+#### 敘述句是在說故事
+1.  
