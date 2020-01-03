@@ -17,7 +17,8 @@
     >動名詞修飾名詞；現在分詞是型態
 2.  字母變化:
     >ie變y，加ing:die->dying,lie->lying,tie,tying
-    單音節字母(aeiou)重複字尾:cutting,shopping
+    
+    >單音節字母(aeiou)重複字尾:cutting,shopping
 
 
 
