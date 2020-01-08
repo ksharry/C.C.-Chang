@@ -168,4 +168,4 @@
 5.  動機5：掏空公司/  和旺建設
 ######  假帳在財報上常見的特徵
 1.  特徵1：過高的應收帳款天數
-![Alt text](https://imgur.com/xUelOBx)
+![Alt text][img]https://i.imgur.com/xUelOBx.png[/img]
