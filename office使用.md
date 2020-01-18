@@ -1,6 +1,6 @@
 <table>
     <tr>
-        <td>簡報使用</td>
+        <td>Power Point使用</td>
     </tr>
 </table>
 
