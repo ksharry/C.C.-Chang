@@ -186,4 +186,7 @@
 2.  GOOGLE永遠的測試版，不斷進化。
 3.  虧損不會在短時間快速變化，要逐步改變。
 4.  生意囝歹生-把注意力放在那些能操之在我，自己就能決定的事上。
-5.  
+5.  戒掉爛英文
+    + to be on safe side :為了保險起見...。
+    + We make hay while the sun shines by.. :我們未雨綢繆.. 
+    + An ounce of prevention is better than a pound of cue 預防勝於治療
