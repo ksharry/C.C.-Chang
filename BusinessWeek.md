@@ -177,7 +177,7 @@
 
 <table>
     <tr>
-        <td>168ˋ-冰封中國</td>
+        <td>1684-冰封中國</td>
     </tr>
 </table>
 
@@ -190,3 +190,12 @@
     + to be on safe side :為了保險起見...。
     + We make hay while the sun shines by.. :我們未雨綢繆.. 
     + An ounce of prevention is better than a pound of cue 預防勝於治療
+
+<table>
+    <tr>
+        <td>1685-防疫30天-戰役聖經</td>
+    </tr>
+</table>
+
+#### 紀錄 
+1.  
