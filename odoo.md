@@ -5,6 +5,10 @@
 </table>
 
 #### 紀錄 
+
+0. 確認docker是否啟動
+    > sudo docker run hello-world
+    
 1. docker背景啟動postgresql路徑：/home/dsc/work/docker_community_13
     > docker-compose up -d
     
