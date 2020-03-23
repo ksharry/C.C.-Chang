@@ -10,6 +10,11 @@
     
     > docker ps 
     
-2.啟動odoo環境路徑 c /home/dsc/odoo,要有odoo-bin.
+2. 啟動odoo環境
+    > source odoo13/bin/activate
+
+3. 路徑 c /home/dsc/odoo,要有odoo-bin.
     > python3 odoo-bin -w odoo -r odoo -c /home/dsc/odoo/config/odoo.conf
 
+4. 登入網址：
+   > http://0.0.0.0:8069/
