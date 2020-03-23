@@ -22,3 +22,9 @@
 
 4. 登入網址：
    > http://0.0.0.0:8069/
+   
+5.database網址：
+  >  http://0.0.0.0:8069/web/database/manager
+
+
+http://paste.ubuntu.com/p/3SvZyGzwcH/
