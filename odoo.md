@@ -40,11 +40,11 @@
    > pip3 install -r requirements.txt
    
  4.設定odoo環境
-    +>odoo.conf
-        [options]
-        addons_path = /home/twtrubiks/work/odoo13/addons
-        data_dir = /home/twtrubiks/Downloads/odoo-git/odoo-data
-        db_host = localhost
+    >odoo.conf
+       [options]
+       addons_path = /home/twtrubiks/work/odoo13/addons
+       data_dir = /home/twtrubiks/Downloads/odoo-git/odoo-data
+       db_host = localhost
 
 5. 路徑 要有odoo-bin:/home/dsc/odoo
     > python3 odoo-bin -w odoo -r odoo -c /home/dsc/odoo/config/odoo.conf
