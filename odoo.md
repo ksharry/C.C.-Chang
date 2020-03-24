@@ -5,6 +5,42 @@
 </table>
 
 #### 紀錄 
+0. 工具安裝
+    + sudo apt install vim
+
+
+1. docker 安裝https://docs.docker.com/install/linux/docker-ce/ubuntu/
+
+2. postgresql安裝  
+    > docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo --name db postgres:12.1
+
+2.wkhtmltopdf安裝
+    > wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.xenial_amd64.deb
+    
+    > sudo apt --fix-broken install,sudo dpkg -i libpng12-0_1.2.54-1ubuntu1_amd64.deb
+    
+    > sudo dpkg -i dpkg -i wkhtmltox_0.12.5-1.xenial_amd64.deb
+    
+3. odoo安裝
+    >git clone https://github.com/odoo/odoo.git
+    
+    >sudo apt-get install python3-venv ; python3 -m venv odoo13
+    
+    >source odoo13/bin/activate
+
+   > pip3 install wheel
+   
+   > sudo apt-get install python3 python-dev python3-dev \
+     build-essential libssl-dev libffi-dev \
+     libxml2-dev libxslt1-dev zlib1g-dev \
+     python-pip
+     
+   > sudo apt-get install libsasl2-dev python-dev libldap2-dev libssl-dev
+   
+   > pip3 install -r requirements.txt
+   
+ 4.設定odoo環境
+    + 
 
 0. 確認docker是否啟動
     > sudo docker run hello-world
