@@ -7,6 +7,13 @@
 #### 紀錄 
 0. 工具安裝
     + sudo apt install vim
+    +pgadmin4
+       
+       > sudo vim /etc/apt/sources.list.d/pgdg.list
+       deb http://apt.postgresql.org/pub/repos/apt/ bionic-pgdg main
+       sudo wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+       sudo apt update
+       sudo apt install pgadmin4
 
 
 1. docker 安裝https://docs.docker.com/install/linux/docker-ce/ubuntu/
