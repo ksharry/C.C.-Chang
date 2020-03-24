@@ -40,6 +40,7 @@
    > pip3 install -r requirements.txt
    
  4.設定odoo環境
+    
     >odoo.conf
        [options]
        addons_path = /home/twtrubiks/work/odoo13/addons
