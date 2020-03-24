@@ -12,7 +12,7 @@
 1. docker 安裝https://docs.docker.com/install/linux/docker-ce/ubuntu/
 
 2. postgresql安裝  
-    > docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo --name db postgres:12.1
+    > docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo --name db postgres:10.0
 
 2.wkhtmltopdf安裝
     > wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.xenial_amd64.deb
@@ -40,27 +40,18 @@
    > pip3 install -r requirements.txt
    
  4.設定odoo環境
-    + 
+    + odoo.conf
+ [options]
+addons_path = /home/twtrubiks/work/odoo13/addons
+data_dir = /home/twtrubiks/Downloads/odoo-git/odoo-data
+db_host = localhost
 
-0. 確認docker是否啟動
-    > sudo docker run hello-world
-    
-1. docker背景啟動postgresql路徑：/home/dsc/work/docker_community_13
-    > docker-compose up -d
-    
-    > docker ps 
-    
-2. 啟動odoo環境
-    > source odoo13/bin/activate
-
-3. 路徑 要有odoo-bin:/home/dsc/odoo
+5. 路徑 要有odoo-bin:/home/dsc/odoo
     > python3 odoo-bin -w odoo -r odoo -c /home/dsc/odoo/config/odoo.conf
 
-4. 登入網址：
+6 登入網址：
    > http://0.0.0.0:8069/
    
-5.database網址：
+7.database網址：
   >  http://0.0.0.0:8069/web/database/manager
 
-
-http://paste.ubuntu.com/p/3SvZyGzwcH/
