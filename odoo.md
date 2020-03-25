@@ -15,6 +15,12 @@
        sudo apt update
        sudo apt install pgadmin4
 
+    +copyq
+     
+      > sudo apt install software-properties-common
+         sudo add-apt-repository ppa:hluk/copyq
+         sudo apt update
+         sudo apt install copyq
 
 1. docker 安裝https://docs.docker.com/install/linux/docker-ce/ubuntu/
 
@@ -34,7 +40,7 @@
     
     >sudo apt-get install python3-venv ; python3 -m venv odoo13
     
-    >source odoo13/bin/activate
+    
 
    > pip3 install wheel
    
@@ -56,6 +62,9 @@
        db_host = localhost
 
 5. 路徑 要有odoo-bin:/home/dsc/odoo
+    > source odoo13/bin/activate 
+    > cd odoo
+    > docker-compose up -d
     > python3 odoo-bin -w odoo -r odoo -c /home/dsc/odoo/config/odoo.conf
 
 6 登入網址：
