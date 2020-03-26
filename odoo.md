@@ -68,6 +68,7 @@
        db_host = localhost
 
 5. 路徑 要有odoo-bin:/home/dsc/odoo
+
     > source odoo13/bin/activate 
     > cd odoo
     > docker-compose up -d
