@@ -21,6 +21,12 @@
          sudo add-apt-repository ppa:hluk/copyq
          sudo apt update
          sudo apt install copyq
+         
+    + x11vnc
+    
+       >apt-get install x11vnc
+        sudo x11vnc -storepasswd [your_password] /etc/x11vnc.pass
+        x11vnc
 
 1. docker 安裝https://docs.docker.com/install/linux/docker-ce/ubuntu/
 
