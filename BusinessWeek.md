@@ -264,3 +264,20 @@
     + coronavirus :冠狀病毒。
     + to postpone :延期
     + to downplay :貶低..重要性
+    
+<table>
+    <tr>
+        <td>1688-零接觸商機來了</td>
+    </tr>
+</table>
+
+#### 紀錄 
+1.  達爾文進化論-適應環境
+2.  經濟部長:沈榮津，傳統農家，口罩國家隊
+3.  庫克公開信:1.拉近距離2.同理心3.真誠4.連結5.承諾
+4.  5大寫作技巧:1.說故事2.說數字3.簡單4.行動5.正向
+5.  遠距產業:1.醫療2.外送3.學習
+6.  戒掉爛英文
+    + to stick one's neck out:冒險出頭
+    + to stick in one's throat:說不出口
+    + to be stuck on something:陷入膠著
