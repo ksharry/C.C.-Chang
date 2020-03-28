@@ -1,5 +1,15 @@
 <table>
     <tr>
+        <td>AI人工智慧學校</td>
+    </tr>
+</table>
+
+#### 0328機器學習紀錄 
+1.KNN是不用健模，但是預測很久,k-means需要健模，但預測快
+
+
+<table>
+    <tr>
         <td>AI人工智慧</td>
     </tr>
 </table>
