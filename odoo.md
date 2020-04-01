@@ -3,6 +3,7 @@
         <td>ubuntu啟動指令</td>
     </tr>
 </table>
+
 #### 紀錄 
 1. Postgresql使用 
   + systemctl status postgresql.service ,查看 PostgreSQL 服務狀態
