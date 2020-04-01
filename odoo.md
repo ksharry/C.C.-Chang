@@ -3,17 +3,34 @@
         <td>ubuntu啟動指令</td>
     </tr>
 </table>
-
+#### 紀錄 
+1. Postgresql使用 
+  + systemctl status postgresql.service ,查看 PostgreSQL 服務狀態
+  + sudo -i -u postgres   ,  pql  登入
+  + https://www.itread01.com/content/1546698734.html
+  1、列舉資料庫：\l
+  2、選擇資料庫：\c 資料庫名
+  3、檢視該某個庫中的所有表：\dt
+  4、切換資料庫：\c interface
+  5、檢視某個庫中的某個表結構：\d 表名
+  6、檢視某個庫中某個表的記錄：select * from apps limit 1;
+  7、顯示字符集：\encoding
+  8、退出psgl：\q
+  
 #### 紀錄 
 0. 工具安裝
     + sudo apt install vim
     +pgadmin4
        
        > sudo vim /etc/apt/sources.list.d/pgdg.list
-       deb http://apt.postgresql.org/pub/repos/apt/ bionic-pgdg main
-       sudo wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
-       sudo apt update
-       sudo apt install pgadmin4
+       
+       > deb http://apt.postgresql.org/pub/repos/apt/ bionic-pgdg main
+       
+       > sudo wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+       
+       > sudo apt update
+       
+       > sudo apt install pgadmin4
 
     +copyq
      
@@ -68,10 +85,12 @@
        db_host = localhost
 
 5. 路徑 要有odoo-bin:/home/dsc/odoo
-
     > source odoo13/bin/activate 
+    
     > cd odoo
+    
     > docker-compose up -d
+    
     > python3 odoo-bin -w odoo -r odoo -c /home/dsc/odoo/config/odoo.conf
 
 6 登入網址：
