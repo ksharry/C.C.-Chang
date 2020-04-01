@@ -10,14 +10,14 @@
   + sudo -i -u postgres   ,  pql  登入
   + https://www.itread01.com/content/1546698734.html
 
-1、列舉資料庫：\l
-2、選擇資料庫：\c 資料庫名
-3、檢視該某個庫中的所有表：\dt
-4、切換資料庫：\c interface
-5、檢視某個庫中的某個表結構：\d 表名
-6、檢視某個庫中某個表的記錄：select * from apps limit 1;
-7、顯示字符集：\encoding
-8、退出psgl：\q
+2. 列舉資料庫：\l
+3. 選擇資料庫：\c 資料庫名
+4. 檢視該某個庫中的所有表：\dt
+5. 切換資料庫：\c interface
+6. 檢視某個庫中的某個表結構：\d 表名
+7. 檢視某個庫中某個表的記錄：select * from apps limit 1;
+7. 顯示字符集：\encoding
+8. 退出psgl：\q
   
 #### 紀錄 
 0. 工具安裝
