@@ -281,3 +281,22 @@
     + to stick one's neck out:冒險出頭
     + to stick in one's throat:說不出口
     + to be stuck on something:陷入膠著
+    
+<table>
+    <tr>
+        <td>1690-解碼瘋狂QE效應</td>
+    </tr>
+</table>
+
+#### 紀錄 
+1.  
+
+
+<table>
+    <tr>
+        <td>1691-一起活下去</td>
+    </tr>
+</table>
+
+#### 紀錄 
+1.  
