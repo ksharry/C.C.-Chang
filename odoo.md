@@ -101,3 +101,7 @@
 7.database網址：
   >  http://0.0.0.0:8069/web/database/manager
 
+8. 複製語法python odoo-bin scaffold aa_sale1 addons
+
+9. 語法：
+   
