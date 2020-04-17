@@ -289,9 +289,10 @@
 </table>
 
 #### 紀錄 
-1.  
-
-
+1.  戒掉爛英文
+    + to work form home：在家工作
+    + to telework：遠距工作 
+    + to work staggered shifts：交錯輪班
 <table>
     <tr>
         <td>1691-一起活下去</td>
@@ -299,4 +300,5 @@
 </table>
 
 #### 紀錄 
-1.  
+1.  不受、忍受、接受到享受
+2.  
