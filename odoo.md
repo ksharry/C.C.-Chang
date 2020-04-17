@@ -103,5 +103,5 @@
 
 8. 複製語法python odoo-bin scaffold aa_sale1 addons
 
-9. 語法：
+9. 語法：卡8069 netstat -lp --inet  , kill -9 pid
    
