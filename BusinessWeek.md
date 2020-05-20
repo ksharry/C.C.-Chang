@@ -309,3 +309,16 @@
     + rationing :定量配給
     + intervention :介入
 5.  敏捷式管理:
+
+<table>
+    <tr>
+        <td>1694-石油世紀再見</td>
+    </tr>
+</table>
+
+#### 紀錄 
+1.  
+2.  戒掉爛英文
+    + Things are looking up：事情漸有起色
+    + You'll get over it：你會挺過來的
+    + Keep your chin up：保持樂觀向上
