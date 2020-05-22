@@ -322,3 +322,16 @@
     + Things are looking up：事情漸有起色
     + You'll get over it：你會挺過來的
     + Keep your chin up：保持樂觀向上
+    
+<table>
+    <tr>
+        <td>1697-火線上的台積電</td>
+    </tr>
+</table>
+
+#### 紀錄 
+1.  
+2.  全球熱門自
+    + otaku：宅經濟
+    + uptick：上昇
+    + to reinvigorate：振興
