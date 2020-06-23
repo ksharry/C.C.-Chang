@@ -310,12 +310,6 @@
     + intervention :介入
 5.  敏捷式管理:
 
-<table>
-    <tr>
-        <td>1694-石油世紀再見</td>
-    </tr>
-</table>
-
 #### 紀錄 
 1.  
 2.  戒掉爛英文
@@ -323,15 +317,22 @@
     + You'll get over it：你會挺過來的
     + Keep your chin up：保持樂觀向上
     
-<table>
-    <tr>
-        <td>1697-火線上的台積電</td>
-    </tr>
-</table>
-
 #### 紀錄 
 1.  
-2.  全球熱門自
+2.  全球熱門字
     + otaku：宅經濟
     + uptick：上昇
     + to reinvigorate：振興
+    
+<table>
+    <tr>
+        <td>1701-特斯拉超越豐田的秘密</td>
+    </tr>
+</table>
+#### 紀錄 
+1.  每個系統中存在一個最基本的命題，它不能被違背或刪除
+2.  被流程綁架的公司。
+2.  全球熱門字
+    + curfew：宵禁
+    + to procecute：告發
+    + to vandalize：破壞
