@@ -29,6 +29,7 @@
 1. 模型參考LeeMeng大大的詳細的介紹，調整成單一個進行使用。
 >  https://leemeng.tw/shortest-path-to-the-nlp-world-a-gentle-guide-of-natural-language-processing-and-deep-learning-for-everyone.html
 2. LSTM模型步驟說明:
+
    a.  把文字變成數字(embedding)，好讓模型知道彼此間的關係。
    
    b.  把文字縮為固定長度，我這邊設定250個字文章，過長截斷，過短補0。
