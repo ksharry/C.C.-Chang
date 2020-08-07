@@ -9,7 +9,7 @@
 
 ![Alt text](https://imgur.com/gZpTSCR.png)
 
-## 第一章 賽程需要注意的事項
+## 第一章 賽程學習紀錄
 #### Step1：測試建模數據說明
 1.  欄位:news_ID，Hyperlink，Content，Name
 2.  筆數:5023筆新聞內文資料。
