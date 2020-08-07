@@ -284,18 +284,6 @@
     
 <table>
     <tr>
-        <td>1690-解碼瘋狂QE效應</td>
-    </tr>
-</table>
-
-#### 紀錄 
-1.  戒掉爛英文
-    + to work form home：在家工作
-    + to telework：遠距工作 
-    + to work staggered shifts：交錯輪班
-    
-<table>
-    <tr>
         <td>1693-雲端教育大爆發</td>
     </tr>
 </table>
@@ -308,27 +296,22 @@
     + to keep at bay :阻止
     + rationing :定量配給
     + intervention :介入
-5.  敏捷式管理:
-
-#### 紀錄 
-1.  
-2.  戒掉爛英文
     + Things are looking up：事情漸有起色
     + You'll get over it：你會挺過來的
     + Keep your chin up：保持樂觀向上
-    
-#### 紀錄 
-1.  
-2.  全球熱門字
     + otaku：宅經濟
     + uptick：上昇
     + to reinvigorate：振興
+    + to work form home：在家工作
+    + to telework：遠距工作 
+    + to work staggered shifts：交錯輪班  
     
 <table>
     <tr>
         <td>1701-特斯拉超越豐田的秘密</td>
     </tr>
 </table>
+
 #### 紀錄 
 1.  每個系統中存在一個最基本的命題，它不能被違背或刪除
 2.  被流程綁架的公司。
