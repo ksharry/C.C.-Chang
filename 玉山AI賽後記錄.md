@@ -53,7 +53,7 @@
 3. colab範例程式參考:https://colab.research.google.com/drive/1IgM6L3XVLJZoEOP-2m1IBLO9SfGApQU9?usp=sharing
 
 #### Step6：人名的擷取。
-1. 人名部分其實不太容易，我們是透過CKIP判斷是PERSON的部分，再進行百家姓提除一次，用正則表示剃除非中文並超過2-4個字。
+1. 我們透過CKIP判斷PERSON後進行百家姓提除一次，用正則表示剃除非中文並超過2-4個字。
 2. 但仍有一些劉男，張女，張姓...等情況。
 
 #### Step7：雲端平台環境的架設
