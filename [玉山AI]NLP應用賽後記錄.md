@@ -21,8 +21,8 @@
 3.  colab範例程式參考:https://colab.research.google.com/drive/1IgM6L3XVLJZoEOP-2m1IBLO9SfGApQU9?usp=sharing
 
 #### Step3：取得本文後的整理
-1. 斷詞初步使用jieba，後面加上ckip斷詞(停用詞使用結巴)，繁體中文還是要用ckip，較正確地進行分類，但缺點是載入頗久。
-2. 斷詞步驟:先載入ckip進行斷持，接著把斷詞的每個字進行停用字提除，最後在去除標點符號，在整理成詞庫。
+1. 斷詞初步使用jieba，後面使用ckip，停用詞使用結巴，繁體中文還是要用ckip，較正確地進行分開，但缺點是載入頗久。
+2. 斷詞步驟:先載入ckip進行斷詞，接著把斷詞的每個詞送到停用字判斷後去除，最後在去除標點符號，整理成詞庫。
 3. colab範例程式參考:https://colab.research.google.com/drive/1IgM6L3XVLJZoEOP-2m1IBLO9SfGApQU9?usp=sharing
 
 #### Step4：模型訓練
