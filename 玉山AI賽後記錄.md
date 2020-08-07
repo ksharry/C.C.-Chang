@@ -35,7 +35,7 @@
    d.  送進模型進行訓練10回合。
 ![Alt text](https://imgur.com/bfmoXjD.png)
 ![Alt text](https://imgur.com/0KHL1Gv.png)
-3.  最後正確率大概是97%，筆都猜93%空白好一點。
+3.  最後正確率大概是97%，比都猜93%空白好一點。
 4.  colab範例程式參考:https://colab.research.google.com/drive/1zW3m54WV7UtC9AmiyAIbziz_Yd8NtaDR?usp=sharing
 
 #### Step5：t-nse降維視覺化查看模型學習成果。
