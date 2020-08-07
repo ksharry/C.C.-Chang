@@ -18,12 +18,12 @@
 #### Step2：爬蟲程式
 1.  提供的新聞本文沒有完整內容，需要自己寫爬蟲程式。
 2.  整理後新聞來源有30個平台，需要個別進行抓取進行模型訓練。
-3.  colab範例程式參考:https://drive.google.com/file/d/1iN2ix7vLsiv0Pwb42PqGuV9VOTSsMFxA/view?usp=sharing
+3.  colab範例程式參考:https://colab.research.google.com/drive/1IgM6L3XVLJZoEOP-2m1IBLO9SfGApQU9?usp=sharing
 
 #### Step3：取得本文後的整理
 1. 斷詞初步使用jieba，後面加上ckip斷詞(停用詞使用結巴)，繁體中文還是要用ckip，較正確地進行分類，但缺點是載入頗久。
 2. 斷詞步驟:先載入ckip進行斷持，接著把斷詞的每個字進行停用字提除，最後在去除標點符號，在整理成詞庫。
-3. colab範例程式參考:https://drive.google.com/file/d/1fQhuFNUJtOCTLIdFBTWxnO7n2Xj7YR-t/view?usp=sharing
+3. colab範例程式參考:https://colab.research.google.com/drive/1IgM6L3XVLJZoEOP-2m1IBLO9SfGApQU9?usp=sharing
 
 #### Step4：模型訓練
 1. 模型參考LeeMeng大大的詳細的介紹，調整成單一個進行使用。
@@ -43,7 +43,7 @@
 ![Alt text](https://imgur.com/0KHL1Gv.png)
 
 3.  最後正確率大概是97%，比93%好一點。
-4.  colab範例程式參考:https://colab.research.google.com/drive/1zW3m54WV7UtC9AmiyAIbziz_Yd8NtaDR?usp=sharing
+4.  colab範例程式參考:https://colab.research.google.com/drive/1IgM6L3XVLJZoEOP-2m1IBLO9SfGApQU9?usp=sharing
 
 #### Step5：t-nse降維視覺化查看模型學習成果。
 1. 因為實在不曉得模型學到了什麼，所以透過t-nse了解大概的情況，參考如下網址進行製作。
