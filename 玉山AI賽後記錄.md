@@ -30,11 +30,17 @@
 >  https://leemeng.tw/shortest-path-to-the-nlp-world-a-gentle-guide-of-natural-language-processing-and-deep-learning-for-everyone.html
 2. LSTM模型步驟說明:
    a.  把文字變成數字(embedding)，好讓模型知道彼此間的關係。
+   
    b.  把文字縮為固定長度，我這邊設定250個字文章，過長截斷，過短補0。
+   
    c.  拆分訓練與測試9:1。
+   
    d.  送進模型進行訓練10回合。
+   
 ![Alt text](https://imgur.com/bfmoXjD.png)
+
 ![Alt text](https://imgur.com/0KHL1Gv.png)
+
 3.  最後正確率大概是97%，比都猜93%空白好一點。
 4.  colab範例程式參考:https://colab.research.google.com/drive/1zW3m54WV7UtC9AmiyAIbziz_Yd8NtaDR?usp=sharing
 
