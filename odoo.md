@@ -116,3 +116,4 @@
   
   >  ssh –X dsx@192.168.x.x
    
+11. XSHELL 上傳:sudo apt-get install lrzsz 
