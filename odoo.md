@@ -104,4 +104,15 @@
 8. 複製語法python odoo-bin scaffold aa_sale1 addons
 
 9. 語法：卡8069 netstat -lp --inet  , kill -9 pid
+
+10.ssh連線開放
+  >  sudo apt-get install ssh
+   
+  >  sudo nano /etc/ssh/sshd_config  開放Port 22  , AllowUsers odoo
+  
+  >  sudo /etc/init.d/ssh  restart
+  
+  >  sudo gedit /etc/hosts.allow   ALL: 192.168.x.x
+  
+  >  ssh –X dsx@192.168.x.x
    
