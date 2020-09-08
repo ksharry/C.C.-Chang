@@ -117,3 +117,5 @@
   >  ssh –X dsx@192.168.x.x
    
 11. XSHELL 上傳:sudo apt-get install lrzsz 
+
+12. 直接在linux安裝指令 :python3 odoo-bin -i demo_expense_tutorial_v1 -d odoo -c /home/dsc/odoo/config/odoo.conf
