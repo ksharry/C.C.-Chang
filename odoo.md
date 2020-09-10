@@ -50,9 +50,11 @@
 1. docker 安裝https://docs.docker.com/install/linux/docker-ce/ubuntu/
 
 2. postgresql安裝  
-    > docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo --name db postgres:10.0
+    > 進入docke postgresql   :  docker ps ; docker exec -it 49054d415576 bash   :   volum路徑:/var/lib/docker/vloume/xxxxxxx or odooxxxx
     
-    > docker ps ; docker exec -it 49054d415576 bash
+    > 遠端pgadmin 安裝後設定,odoo/postgresql/odoo/odoo  ip設定即可。
+    
+    > 勿用--調整使用docker-compose (docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo --name db postgres:10.0)
 
 2.wkhtmltopdf安裝
     
@@ -122,4 +124,4 @@
 
 12. 直接在linux安裝指令 :python3 odoo-bin -i demo_expense_tutorial_v1 -d odoo -c /home/dsc/odoo/config/odoo.conf
 
-13.port sudo ufw status verbose  , add:sudo ufw allow 22/tcp
+13.查看開放port sudo ufw status verbose  , 新增port:sudo ufw allow 22/tcp
