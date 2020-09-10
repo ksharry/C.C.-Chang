@@ -51,6 +51,8 @@
 
 2. postgresql安裝  
     > docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo --name db postgres:10.0
+    
+    > docker ps ; docker exec -it 49054d415576 bash
 
 2.wkhtmltopdf安裝
     
