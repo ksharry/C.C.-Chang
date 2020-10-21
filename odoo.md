@@ -124,4 +124,6 @@
 
 12. 直接在linux安裝指令 :python3 odoo-bin -i demo_expense_tutorial_v1 -d odoo -c /home/dsc/odoo/config/odoo.conf
 
-13.查看開放port sudo ufw status verbose  , 新增port:sudo ufw allow 22/tcp
+13. 查看開放port sudo ufw status verbose  , 新增port:sudo ufw allow 22/tcp
+
+14. jupyter 64位元出現sqlite3問題，https://www.sqlite.org/download.html ，下載Precompiled Binaries for Windows對應的位元數放入DLLs檔案即可。
