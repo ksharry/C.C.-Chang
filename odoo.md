@@ -7,8 +7,11 @@
 #### 紀錄 
 1. Postgresql使用 
   + systemctl status postgresql.service ,查看 PostgreSQL 服務狀態
+  
   + sudo -i -u postgres   ,  pql  登入
+  
   + https://www.itread01.com/content/1546698734.html
+  
 
 2. 列舉資料庫：\l
 3. 選擇資料庫：\c 資料庫名
