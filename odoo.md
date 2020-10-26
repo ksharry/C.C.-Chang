@@ -127,3 +127,8 @@
 13. 查看開放port sudo ufw status verbose  , 新增port:sudo ufw allow 22/tcp
 
 14. jupyter 64位元出現sqlite3問題，https://www.sqlite.org/download.html ，下載Precompiled Binaries for Windows對應的位元數放入DLLs檔案即可。
+
+15. 永續成本，公司頁面
+  >                 <group string="Cost Accounting" groups="account.group_account_user">
+                      <field name="anglo_saxon_accounting"/>
+                    </group>
