@@ -130,5 +130,5 @@
 
 15. 永續成本，公司頁面
   >                 <group string="Cost Accounting" groups="account.group_account_user">
-                      <field name="anglo_saxon_accounting"/>
+                        <field name="anglo_saxon_accounting"/>
                     </group>
