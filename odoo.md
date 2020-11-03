@@ -1,5 +1,16 @@
 <table>
     <tr>
+        <td>odoo14安裝</td>
+    </tr>
+</table>
+
+#### 紀錄 
+1. 環境vmware 
+2. 
+
+
+<table>
+    <tr>
         <td>ubuntu啟動指令</td>
     </tr>
 </table>
