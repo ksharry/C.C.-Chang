@@ -6,7 +6,7 @@
 
 #### 紀錄 
 1. 環境vmware 
-2. 啟動指令 
+2. 啟動指令 https://www.candidroot.com/blog/our-candidroot-blog-1/post/how-to-install-odoo-14-on-ubuntu-20-04-lts-67
   > 
     sudo su - odoo14 -s /bin/bash
     cd /odoo14/odoo-server
