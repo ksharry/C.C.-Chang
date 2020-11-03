@@ -7,7 +7,8 @@
 #### 紀錄 
 1. 環境vmware 
 2. 啟動指令 
- > sudo su - odoo14 -s /bin/bash
+ > 
+ sudo su - odoo14 -s /bin/bash
  cd /odoo14/odoo-server
  ./odoo-bin -c /etc/odoo-server.conf
 
