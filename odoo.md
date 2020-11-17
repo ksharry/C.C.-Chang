@@ -148,3 +148,12 @@
     <group string="Cost Accounting" groups="account.group_account_user"> 
      <field name="anglo_saxon_accounting"/> 
     </group>
+    
+16. 啟動指令 https://www.candidroot.com/blog/our-candidroot-blog-1/post/how-to-install-odoo-14-on-ubuntu-20-04-lts-67
+  > 
+    ps aux  | grep 'postgres *-D'
+    service postgresql status
+    port sudo ufw status verbose
+    sudo -u postgres psql 
+    ALTER USER odoo14 WITH PASSWORD 'odoo14';
+    sudo -i -u postgres
