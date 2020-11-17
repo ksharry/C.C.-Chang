@@ -149,7 +149,7 @@
      <field name="anglo_saxon_accounting"/> 
     </group>
     
-16. 啟動指令 https://www.candidroot.com/blog/our-candidroot-blog-1/post/how-to-install-odoo-14-on-ubuntu-20-04-lts-67
+16. odoo14調整連線pgadmin /etc/postgres/12/main 調整pg_hba.conf 0.9.9.9/0  開放postgresql.conf的listen 為*
   > 
     ps aux  | grep 'postgres *-D'
     service postgresql status
