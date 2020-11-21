@@ -1,5 +1,17 @@
 <table>
     <tr>
+        <td>元植課程</td>
+    </tr>
+</table>
+
+#### 紀錄 
+1. python3.7.9 使用管理著，自定選python37路徑。1.勾選第一個，最後DISABLE
+2. postgresql  使用10以上版本。
+3. ODOO GITHUB下載
+4. 
+
+<table>
+    <tr>
         <td>odoo14安裝</td>
     </tr>
 </table>
