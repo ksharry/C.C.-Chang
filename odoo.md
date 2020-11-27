@@ -10,6 +10,18 @@
 3. ODOO GITHUB下載
 4. 
 
+#### 開發紀錄 (多注意點和底線)
+1. bbb新增承租紀錄:
+    + 增加py的one2many
+    + 新增py,xml,menuitem,security,的程式
+    + 新增manafest,init
+2. bbb新增客戶:
+    + 新增py繼承，menuitem，xml對應尋找位置
+    + 新增manafest,init
+    
+    
+    
+    
 <table>
     <tr>
         <td>odoo14安裝</td>
