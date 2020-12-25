@@ -36,6 +36,9 @@
     cd /odoo14/odoo-server
     ./odoo-bin -c /etc/odoo-server.conf
 
+  >
+    wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+    sudo apt install -y -f ./google-chrome-stable_current_amd64.deb
 
 <table>
     <tr>
