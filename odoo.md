@@ -32,8 +32,8 @@
 1. 環境vmware 
 2. 啟動指令 https://www.candidroot.com/blog/our-candidroot-blog-1/post/how-to-install-odoo-14-on-ubuntu-20-04-lts-67
   > 
-    sudo su - odoo14 -s /bin/bash
-    cd /odoo14/odoo-server
+    sudo su - odoo -s /bin/bash
+    cd /odoo/odoo-server
     ./odoo-bin -c /etc/odoo-server.conf
 
   >
@@ -177,10 +177,10 @@
     </group>
     
 16. odoo14調整連線pgadmin /etc/postgres/12/main 
-  # 調整pg_hba.conf 0.0.0.0/0  # IPv4 local connections:   host    all             all             0.0.0.0/0            md5
-  # 調整pg_hba.conf 0.0.0.0/0  # replication privilege.    host    replication     all             0.0.0.0/0            md5
-  # 開放postgresql.conf    listen_addresses = '*'
-  # 以下為測試連結postgresql
+  + 調整pg_hba.conf 0.0.0.0/0  # IPv4 local connections:   host    all             all             0.0.0.0/0            md5
+  + 調整pg_hba.conf 0.0.0.0/0  # replication privilege.    host    replication     all             0.0.0.0/0            md5
+  + 開放postgresql.conf    listen_addresses = '*'
+  + 以下為測試連結postgresql
   > 
     ps aux  | grep 'postgres *-D'
     service postgresql status
