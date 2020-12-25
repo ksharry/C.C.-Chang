@@ -176,7 +176,11 @@
      <field name="anglo_saxon_accounting"/> 
     </group>
     
-16. odoo14調整連線pgadmin /etc/postgres/12/main 調整pg_hba.conf 0.9.9.9/0  開放postgresql.conf的listen 為*
+16. odoo14調整連線pgadmin /etc/postgres/12/main 
+  # 調整pg_hba.conf 0.0.0.0/0  # IPv4 local connections:   host    all             all             0.0.0.0/0            md5
+  # 調整pg_hba.conf 0.0.0.0/0  # replication privilege.    host    replication     all             0.0.0.0/0            md5
+  # 開放postgresql.conf    listen_addresses = '*'
+  # 以下為測試連結postgresql
   > 
     ps aux  | grep 'postgres *-D'
     service postgresql status
