@@ -154,11 +154,11 @@
 10.ssh連線開放
   >  sudo apt-get install ssh
    
-  >  sudo nano /etc/ssh/sshd_config  開放Port 22  , AllowUsers odoo
+  >  sudo nano /etc/ssh/sshd_config  開放Port 22  , AllowUsers dsc
   
   >  sudo /etc/init.d/ssh  restart
   
-  >  sudo gedit /etc/hosts.allow   ALL: 192.168.x.x
+  >  sudo gedit /etc/hosts.allow   ALL: 192.168.3.*
   
   >  ssh –X dsx@192.168.x.x
    
