@@ -188,3 +188,9 @@
     sudo -u postgres psql 
     ALTER USER odoo14 WITH PASSWORD 'odoo14';
     sudo -i -u postgres
+
+16. odoo14調整port
+  + sudo apt-get install ufw     安裝
+  + sudo ufw default allow/deny   開啟
+  + sudo ufw status numbered    查看狀態
+  + sudo ufw allow 80/tcp / sudo ufw allow 443/tcp
