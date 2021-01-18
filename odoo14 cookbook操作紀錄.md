@@ -99,10 +99,10 @@
     odoo/odoo-bin -d mydatabase --addons-path="odoo/odoo/addons,odoo/addons,~/odoo-dev/local-addons" --save -c ~/odoo-dev/my-instance.cfg --stop-after-init
 
    3. 標準化目錄布局
-     + 每個環境創立一個目錄：
+   a. 每個環境創立一個目錄：
      
-       mkdir ~/odoo-dev/projectname
-       cd ~/odoo-dev/projectname
+    mkdir ~/odoo-dev/projectname
+    cd ~/odoo-dev/projectname
 
    b. 在env/的子目錄中創建一個Python虛擬環境對象：
     
@@ -183,4 +183,28 @@
     addons_path = /home/wkc/odoo-dev/projectname/src/odoo/odoo/addons,/home/wkc/odoo-dev/projectname/src/odoo/addons,/home/wkc/odoo-dev/projectname/src/,/home/wkc/odoo-dev/projectname/local
 
 ## 第一章 創建ODOO的addons
-  1. 操作方式
+  1. 進入到工作目錄即你要操作並放置新建的自定義模塊的插件目錄中：
+
+    cd ~/odoo-dev/local-addons
+    mkdir local-addons/my_library
+    touch local-addons/my_library/__init__.py
+    
+  2. touch local-addons/my_library/__manifest__.py
+  
+    {
+        'name': "My library",
+        'summary': "輕鬆管理圖書",
+        'description': """
+    Manage Library
+    ==============
+    Description related to library.
+         """,
+        'author': "Alan Hou",
+        'website': "https://alanhou.org",
+        'category': 'Uncategorized',
+        'version': '14.0.1',
+        'depends': ['base'],
+        'data': ['views/views.xml'],
+        'demo': ['demo.xml'],
+    }
+    
