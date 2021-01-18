@@ -7,18 +7,14 @@
 ## 大綱
 #### 因操作過程中有些修改自己的CODE，中間紀錄一下使用方式，本書資料來源:https://alanhou.org/odoo-14-creating-odoo-add-on-modules/，
 
-#### 第一章 安裝Odoo開發環境
+## 第一章 安裝Odoo開發環境
   1. 安裝主要的依賴：
   
     sudo apt-get update 
     sudo apt install git python3-pip build-essential wget python3-dev python3-venv python3-wheel libxslt-dev libzip-dev libldap2-dev libsasl2-dev python3-setuptools -y 
-    sudo apt-get update 
-    sudo apt install git python3-pip build-essential wget python3-dev python3-venv python3-wheel libxslt-dev libzip-dev libldap2-dev libsasl2-dev python3-setuptools -y
     
   2. 下載並安装wkhtmltopdf：
   
-    wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.bionic_amd64.deb
-    sudo dpkg -i wkhtmltox_0.12.5-1.bionic_amd64.deb
     wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.bionic_amd64.deb
     sudo dpkg -i wkhtmltox_0.12.5-1.bionic_amd64.deb
     
@@ -29,17 +25,13 @@
   4. 安裝PostgreSQL資料庫
   
     sudo apt install postgresql -y
-    sudo apt install postgresql -y
     
   5. 配置PostgreSQL
   
     sudo -u postgres createuser --superuser $(whoami)
-    sudo -u postgres createuser --superuser $(whoami)
     
   6. 配置git（以下內容須自行修改）：
   
-    git config --global user.name "Your Name"
-    git config --global user.email youremail@example.com
     git config --global user.name "Your Name"
     git config --global user.email youremail@example.com
     
@@ -53,13 +45,9 @@
   
     python3 -m venv ~/venv-odoo-14.0
     source ~/venv-odoo-14.0/bin/activate
-    python3 -m venv ~/venv-odoo-14.0
-    source ~/venv-odoo-14.0/bin/activate
     
   9. 在venv中安装Odoo的Python依赖：
   
-    cd ~/odoo-dev/odoo/
-    pip3 install -r requirements.txt
     cd ~/odoo-dev/odoo/
     pip3 install -r requirements.txt
     
@@ -67,12 +55,33 @@
     
     createdb odoo-test
     python3 odoo-bin -d odoo-test -i base --addons-path=addons --db-filter=odoo-test$
-    createdb odoo-test
-    python3 odoo-bin -d odoo-test -i base --addons-path=addons --db-filter=odoo-test$
     
   11. 在http://localhost:8069 ，使用帳密admin/admin登陸，如需RTL（文字右向左）的支持，请使用如下命令安装node 和 rtlcss ：
   
     sudo apt-get install nodejs npm -y
     sudo npm install -g rtlcss
-    sudo apt-get install nodejs npm -y
-    sudo npm install -g rtlcss
+    
+  12. 建立新的資料庫指令
+  
+    createdb -T odoo-test odoo-test2
+    cd ~/.local/share/Odoo/filestore # 如果你修改了data_dir请调整此处
+    cp -r odoo-test odoo-test2
+    cd -
+    
+  13. 建立新的資料庫指令
+  
+    dropdb dbname
+    rm -rf ~/.local/share/Odoo/filestore/dbname
+
+  14. 建立備份
+  
+    pg_dump -Fc -fodoo-test2.dump odoo-test2
+    tar cjf odoo-test2.tgz odoo-test2.dump ~/.local/share/Odoo/filestore/dbname
+  
+   15. 還原備份
+  
+    tar xf odoo-test2.tgz
+    pg_restore -C -d odoo-test2 odoo-test2.dump
+    
+## 第二章 管理Odoo服務端實例
+
