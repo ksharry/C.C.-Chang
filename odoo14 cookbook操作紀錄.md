@@ -182,7 +182,7 @@
     projectname.cfg中的addons_path一行應該是這樣的：
     addons_path = /home/wkc/odoo-dev/projectname/src/odoo/odoo/addons,/home/wkc/odoo-dev/projectname/src/odoo/addons,/home/wkc/odoo-dev/projectname/src/,/home/wkc/odoo-dev/projectname/local
 
-## 第一章 創建ODOO的addons
+## 第三章 創建ODOO的addons
   1. 進入到工作目錄即你要操作並放置新建的自定義模塊的插件目錄中：
 
     cd ~/odoo-dev/local-addons
@@ -208,3 +208,47 @@
         'demo': ['demo.xml'],
     }
     
+3. 為代碼文件創建目錄：
+    
+    cd local-addons/my_library
+    mkdir models
+    touch models/__init__.py
+    mkdir controllers
+    touch controllers/__init__.py
+    mkdir views
+    touch views/views.xml
+    mkdir security
+    mkdir wizard
+    touch wizard/__init__.py
+    mkdir report
+    mkdir data
+    mkdir demo
+    mkdir i18n
+
+  4. 編輯模塊的頂級 __init__.py文件，這樣子目錄中的代碼會被加載到：
+    
+    from . import models
+    from . import controllers
+    from . import wizard
+
+  5. 這會給我們一個包含最常用入手目錄結構，類似下面這樣：
+
+    my_library
+    ├── __init__.py
+    ├── __manifest__.py
+    ├── controllers
+    │   └── __init__.py
+    ├── data
+    ├── demo
+    ├── i18n
+    ├── models
+    │   └── __init__.py
+    ├── report
+    ├── security
+    ├── static
+    │   └── description
+    │       └── icon.png
+    ├── views
+    │   └── views.xml
+    └── wizard
+        └── __init__.py
