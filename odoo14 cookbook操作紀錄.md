@@ -9,6 +9,7 @@
 
 #### 第一章 安裝Odoo開發環境
   1. 運行如下命令来安装主要依赖：
+  
     + sudo apt-get update
     
     + sudo apt install git python3-pip build-essential wget python3-dev python3-venv python3-wheel libxslt-dev libzip-dev libldap2-dev libsasl2-dev python3-setuptools -y
@@ -18,23 +19,41 @@
     + sudo apt install git python3-pip build-essential wget python3-dev python3-venv python3-wheel libxslt-dev libzip-dev libldap2-dev libsasl2-dev python3-setuptools -y
     
   2. 下載並安装wkhtmltopdf：
+  
     + wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.bionic_amd64.deb
+    
     + sudo dpkg -i wkhtmltox_0.12.5-1.bionic_amd64.deb
+    
     + wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.bionic_amd64.deb
+    
     + sudo dpkg -i wkhtmltox_0.12.5-1.bionic_amd64.deb
+    
   3. 如果以上命令出現了錯誤，請使用以下命令可強制安裝依賴：
+  
     + sudo apt-get install -f
+    
   4. 安裝PostgreSQL資料庫
+  
     + sudo apt install postgresql -y
+    
     + sudo apt install postgresql -y
+    
   5. 配置PostgreSQL
+  
     + sudo -u postgres createuser --superuser $(whoami)
+    
     + sudo -u postgres createuser --superuser $(whoami)
+    
   6. 配置git（以下內容須自行修改）：
+  
     + git config --global user.name "Your Name"
+    
     + git config --global user.email youremail@example.com
+    
     + git config --global user.name "Your Name"
+    
     + git config --global user.email youremail@example.com
+    
   7. Clone Odoo 基礎程式碼：
     + mkdir ~/odoo-dev
     + cd ~/odoo-dev
