@@ -5,7 +5,7 @@
 </table>
 
 ## 大綱
-#### 因操作過程中有些修改自己的CODE，中間紀錄一下使用方式，本書資料來源:https://alanhou.org/odoo-14-creating-odoo-add-on-modules/，
+#### 因操作過程中有些修改自己的CODE，中間紀錄一下使用方式，本書資料來源:https://alanhou.org/odoo-14-creating-odoo-add-on-modules/
 
 ## 第一章 安裝Odoo開發環境
   1. 安裝主要的依賴：
@@ -90,4 +90,80 @@
     ./odoo-bin -c myodoo.cfg    開始指令
     
 ## 第二章 管理Odoo服務端實例
+   1. 配置插件位置  addons_path = ~/odoo-dev/odoo/addons,~/odoo-dev/local-addons
+   2. save選項保存路徑到配置文件中
+   
+    mkdir -p ~/odoo-dev/local-addons/dummy
+    touch ~/odoo-dev/local-addons/dummy/__init__.py
+    echo '{"name": "dummy", "installable": False}' > ~/odoo-dev/local-addons/dummy/__manifest__.py
+    odoo/odoo-bin -d mydatabase --addons-path="odoo/odoo/addons,odoo/addons,~/odoo-dev/local-addons" --save -c ~/odoo-dev/my-instance.cfg --stop-after-init
 
+   3. 標準化目錄布局
+   a. 每個環境創立一個目錄：
+   
+    mkdir ~/odoo-dev/projectname
+    cd ~/odoo-dev/projectname
+
+   b. 在env/的子目錄中創建一個Python虛擬環境對象：
+    
+    python3 -m venv env
+
+   c. 創建一些子目錄，如下：
+   
+    mkdir src local bin filestore logs
+    
+    這些子目錄的功能如下：
+    src/：包含Odoo本身的一個拷貝，以及一些第三方插件項目（我們在下一步中添加了Odoo源碼）
+    local/：用於保存你針對具體實例的插件
+    bin/：包含各類幫助可執行shell腳本
+    filestore/：用於文件存儲
+    logs/（可選）：用於存儲服務日誌文件
+    
+   d. 克隆Odoo並安裝所需依賴包：
+   
+    git clone -b 14.0 --single-branch --depth 1 https://github.com/odoo/odoo.git src/odoo
+    env/bin/pip3 install -r src/odoo/requirements.txt
+
+   e. 以bin/odoo保存如下shell腳本：
+   
+    #!/bin/sh
+    ROOT=$(dirname $0)/..
+    PYTHON=$ROOT/env/bin/python3
+    ODOO=$ROOT/src/odoo/odoo-bin
+    $PYTHON $ODOO -c $ROOT/projectname.cfg "$@"
+    exit $?
+
+   f. 讓該腳本可執行：
+   
+    chmod +x bin/odoo
+
+   g. 創建一個空的本地模塊dummy：
+   
+    mkdir -p local/dummy
+    touch local/dummy/__init__.py
+    echo '{"name": "dummy", "installable": False}' > local/dummy/__manifest__.py
+
+   h. 為你的實例生成配置文件：
+   
+    bin/odoo --stop-after-init --save --addons-path ,/home/wkc/odoo-dev/projectname/src/,/home/wkc/odoo-dev/projectname/local --data-dir /home/wkc/.local/share/Odoo
+
+   i 添加一個.gitignore文件，用於告訴GitHub排除這些給定目錄，這樣Git在提交代碼時就會忽略掉這些目錄，例如 filestore/, env/, logs/和src/：
+   
+    # dotfiles, with exceptions:
+    .*
+    !.gitignore
+    # python compiled files
+    *.py[co]
+    # emacs backup files
+    *~
+    # not tracked subdirectories
+    /env/
+    /src/
+    /filestore/
+    /logs/
+
+   j. 為這個實例創建一個Git倉庫並將已添加的文件添加到Git中：
+   
+    git init
+    git add .
+    git commit -m "initial version of projectname"
