@@ -5,7 +5,7 @@
 </table>
 
 ## 大綱
-#### 書中各章節不太連貫，紀錄自己修改的CODE進行參考，書本資料來源:https://alanhou.org/odoo-14-creating-odoo-add-on-modules/
+#### 書中各章節有點重複或不清楚，紀錄自己修改的CODE進行紀錄，書本資料來源:https://alanhou.org/odoo-14-creating-odoo-add-on-modules/
 
 ## 第一章 安裝Odoo開發環境
   1. 安裝主要的依賴：
@@ -70,18 +70,18 @@
     
   13. 建立新的資料庫指令
   
-    dropdb dbname
-    rm -rf ~/.local/share/Odoo/filestore/dbname
+    dropdb odoo-test2
+    rm -rf ~/.local/share/Odoo/filestore/odoo-test2
 
   14. 建立備份
   
-    pg_dump -Fc -fodoo-test2.dump odoo-test2
-    tar cjf odoo-test2.tgz odoo-test2.dump ~/.local/share/Odoo/filestore/dbname
+    pg_dump -Fc -fodoo-test.dump odoo-test
+    tar cjf odoo-test.tgz odoo-test.dump ~/.local/share/Odoo/filestore/odoo-test
   
    15. 還原備份
   
-    tar xf odoo-test2.tgz
-    pg_restore -C -d odoo-test2 odoo-test2.dump
+    tar xf odoo-test.tgz
+    pg_restore -C -d odoo-test odoo-test.dump
     
    16. 配置服務
   
@@ -371,4 +371,4 @@
   16. 内置的模板位于./odoo/cli/templates，可使用~/odoo-dev/odoo/odoo-bin scaffold -t "自定義路徑" my_module3，此處使用了default模板，但也可以為網站主題編寫的theme模板。
   
 ## 第四章 應用模型
-  1. 進入到工作目錄即你要操作並放置新建的自定義模塊的插件目錄中：
+  1. 
