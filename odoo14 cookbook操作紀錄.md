@@ -90,7 +90,7 @@
     ./odoo-bin -c myodoo.cfg    開始指令
     
 ## 第二章 管理Odoo服務端實例
-   1. 配置插件位置  addons_path = ~/odoo-dev/odoo/addons,~/odoo-dev/local-addons
+   1. 配置插件位置  addons_path=~/odoo-dev/odoo/addons,~/odoo-dev/local-addons
    2. save選項保存路徑到配置文件中
    
     mkdir -p ~/odoo-dev/local-addons/dummy
