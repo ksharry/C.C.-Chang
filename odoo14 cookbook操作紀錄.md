@@ -100,9 +100,9 @@
 
    3. 標準化目錄布局
      + 每個環境創立一個目錄：
-   
-      mkdir ~/odoo-dev/projectname
-      cd ~/odoo-dev/projectname
+     
+       mkdir ~/odoo-dev/projectname
+       cd ~/odoo-dev/projectname
 
    b. 在env/的子目錄中創建一個Python虛擬環境對象：
     
