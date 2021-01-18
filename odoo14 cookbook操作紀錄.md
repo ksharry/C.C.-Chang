@@ -83,5 +83,11 @@
     tar xf odoo-test2.tgz
     pg_restore -C -d odoo-test2 odoo-test2.dump
     
+   16. 配置服務
+  
+    ./odoo-bin --save --config myodoo.cfg --stop-after-init
+    ./odoo-bin --help | less    可查詢指令
+    ./odoo-bin -c myodoo.cfg    開始指令
+    
 ## 第二章 管理Odoo服務端實例
 
