@@ -5,7 +5,7 @@
 </table>
 
 ## 大綱
-#### 因操作過程中有些修改自己的CODE，中間紀錄一下使用方式，本書資料來源:https://alanhou.org/odoo-14-creating-odoo-add-on-modules/
+#### 本書因過程中不太連貫，紀錄自己修改的CODE進行參考，本書資料來源:https://alanhou.org/odoo-14-creating-odoo-add-on-modules/
 
 ## 第一章 安裝Odoo開發環境
   1. 安裝主要的依賴：
