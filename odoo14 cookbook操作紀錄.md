@@ -368,7 +368,7 @@
     acl_book_librarian,library.book_librarian,model_library_book,group_librarian,1,1,1,1
     
   15. ~/odoo-dev/odoo/odoo-bin scaffold my_module2
-  16. 内置的模板位于./odoo/cli/templates，可使用~/odoo-dev/odoo/odoo-bin scaffold -t "自定義路徑" my_module3，此处使用了default模板，但也可以为网站主题编写的theme模板。
+  16. 内置的模板位于./odoo/cli/templates，可使用~/odoo-dev/odoo/odoo-bin scaffold -t "自定義路徑" my_module3，此處使用了default模板，但也可以為網站主題編寫的theme模板。
   
-## 第四章 創建ODOO的addons
+## 第四章 應用模型
   1. 進入到工作目錄即你要操作並放置新建的自定義模塊的插件目錄中：
