@@ -5,10 +5,11 @@
 </table>
 
 ## 大綱
-#### 本書資料來源:https://alanhou.org/odoo-14-creating-odoo-add-on-modules/，因操作過程中有點不連貫，中間紀錄一下使用方式。
+#### 因操作過程中有些修改自己的CODE，中間紀錄一下使用方式，本書資料來源:https://alanhou.org/odoo-14-creating-odoo-add-on-modules/，
 
 #### 第一章 安裝Odoo開發環境
   1. 運行如下命令来安装主要依赖：
+     >
      sudo apt-get update
      sudo apt install git python3-pip build-essential wget python3-dev python3-venv python3-wheel libxslt-dev libzip-dev libldap2-dev libsasl2-dev python3-setuptools -y
      sudo apt-get update
