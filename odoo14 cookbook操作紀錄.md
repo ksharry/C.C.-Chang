@@ -98,7 +98,7 @@
     echo '{"name": "dummy", "installable": False}' > ~/odoo-dev/local-addons/dummy/__manifest__.py
     odoo/odoo-bin -d mydatabase --addons-path="odoo/odoo/addons,odoo/addons,~/odoo-dev/local-addons" --save -c ~/odoo-dev/my-instance.cfg --stop-after-init
 
-   3. 標準化目錄布局
+   4. 標準化目錄布局
    a. 每個環境創立一個目錄：
    
     mkdir ~/odoo-dev/projectname
@@ -167,3 +167,18 @@
     git init
     git add .
     git commit -m "initial version of projectname"
+
+   4. 手动激活虚拟环境：
+
+    source env/bin/activate
+    cd src/odoo
+    ./odoo-bin --addons-path=addons,../../local -d test-14 -i account,sale,purchase --log-level=debug
+
+   5. 安裝插件：
+   
+    cd ~/odoo-dev/my-odoo/src
+    git clone --branch 14.0 https://github.com/OCA/partner-contact.git src/partner-contact
+    
+    projectname.cfg中的addons_path一行应该是这样的：
+    addons_path = /home/wkc/odoo-dev/projectname/src/odoo/odoo/addons,/home/wkc/odoo-dev/projectname/src/odoo/addons,/home/wkc/odoo-dev/projectname/src/,/home/wkc/odoo-dev/projectname/local
+
