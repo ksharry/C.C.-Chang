@@ -270,11 +270,7 @@
     
     from . import library_book
     
-  8. 编辑模块的Python初始化文件来在模块中加载models/目录：
-    
-    from . import models
-    
-  9. 第二种方式是查看PostgreSQL数据库中的表数据。
+  8. 查看安裝後資料庫數據方式。
 
     psql odoo-test
     test-14.0# \d library_book;
@@ -332,5 +328,47 @@
       </record>
     </odoo>
 
+  12. __manifest__.py
+  
+    {
+        'name': "My library",
+        'summary': "輕鬆管理圖書",
+        'description': """
+    Manage Library
+    ==============
+    Description related to library.
+         """,
+        'author': "Harry",
+        'website': "",
+        'category': 'Uncategorized',
+        'version': '14.0.1',
+        'depends': ['base'],
+        'data': [
+                 'security/groups.xml',
+                 'security/ir.model.access.csv',
+                 'views/library_book.xml'
+                ],
+        'demo': [],
+    }
+
+  13. security/groups.xml
+
+    <?xml version="1.0" encoding="utf-8" ?>
+    <odoo>
+        <record id="group_librarian" model="res.groups">
+            <field name="name">Librarians</field>
+            <field name="users" eval="[(4, ref('base.user_admin'))]" />
+        </record>
+    </odoo>
+    
+  14. security/ir.model.access.csv
+
+    id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+    acl_book,library.book_default,model_library_book,,1,0,0,0
+    acl_book_librarian,library.book_librarian,model_library_book,group_librarian,1,1,1,1
+    
+  15. ~/odoo-dev/odoo/odoo-bin scaffold my_module2
+  16. 内置的模板位于./odoo/cli/templates，可使用~/odoo-dev/odoo/odoo-bin scaffold -t "自定義路徑" my_module3，此处使用了default模板，但也可以为网站主题编写的theme模板。
+  
 ## 第四章 創建ODOO的addons
   1. 進入到工作目錄即你要操作並放置新建的自定義模塊的插件目錄中：
