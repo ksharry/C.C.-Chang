@@ -282,6 +282,7 @@
     
   10. 使用superuser可以不用設置權限就可以使用模組。
   11. library_book.xml
+  >
   
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
