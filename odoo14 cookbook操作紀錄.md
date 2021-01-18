@@ -90,13 +90,13 @@
     ./odoo-bin -c myodoo.cfg    開始指令
     
 ## 第二章 管理Odoo服務端實例
-   1. 配置插件位置  addons_path=~/odoo-dev/odoo/addons,~/odoo-dev/local-addons
+   1. 配置插件位置  addons_path=/home/wkc/odoo-dev/odoo/odoo/addons,/home/wkc/odoo-dev/odoo/addons,~/odoo-dev/local-addons
    2. save選項保存路徑到配置文件中
    
     mkdir -p ~/odoo-dev/local-addons/dummy
     touch ~/odoo-dev/local-addons/dummy/__init__.py
     echo '{"name": "dummy", "installable": False}' > ~/odoo-dev/local-addons/dummy/__manifest__.py
-    odoo/odoo-bin -d mydatabase --addons-path="odoo/odoo/addons,odoo/addons,~/odoo-dev/local-addons" --save -c ~/odoo-dev/my-instance.cfg --stop-after-init
+    odoo/odoo-bin -d odoo-test --addons-path="/home/wkc/odoo-dev/odoo/odoo/addons,/home/wkc/odoo-dev/odoo/addons" --save -c ~/odoo-dev/my-odoo.cfg --stop-after-init
 
    3. 標準化目錄布局
    a. 每個環境創立一個目錄：
