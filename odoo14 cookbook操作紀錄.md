@@ -99,10 +99,10 @@
     odoo/odoo-bin -d mydatabase --addons-path="odoo/odoo/addons,odoo/addons,~/odoo-dev/local-addons" --save -c ~/odoo-dev/my-instance.cfg --stop-after-init
 
    4. 標準化目錄布局
-   a. 每個環境創立一個目錄：
+     + 每個環境創立一個目錄：
    
-    mkdir ~/odoo-dev/projectname
-    cd ~/odoo-dev/projectname
+      mkdir ~/odoo-dev/projectname
+      cd ~/odoo-dev/projectname
 
    b. 在env/的子目錄中創建一個Python虛擬環境對象：
     
@@ -182,3 +182,5 @@
     projectname.cfg中的addons_path一行應該是這樣的：
     addons_path = /home/wkc/odoo-dev/projectname/src/odoo/odoo/addons,/home/wkc/odoo-dev/projectname/src/odoo/addons,/home/wkc/odoo-dev/projectname/src/,/home/wkc/odoo-dev/projectname/local
 
+## 第一章 創建ODOO的addons
+  1. 操作方式
