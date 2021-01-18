@@ -199,13 +199,13 @@
     ==============
     Description related to library.
          """,
-        'author': "Alan Hou",
-        'website': "https://alanhou.org",
+        'author': "Harry",
+        'website': "",
         'category': 'Uncategorized',
         'version': '14.0.1',
         'depends': ['base'],
-        'data': ['views/views.xml'],
-        'demo': ['demo.xml'],
+        'data': [],
+        'demo': [],
     }
     
 3. 為代碼文件創建目錄：
