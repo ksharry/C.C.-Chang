@@ -282,9 +282,8 @@
     
   10. 使用superuser可以不用設置權限就可以使用模組。
   11. library_book.xml
-  >
   
-<?xml version="1.0" encoding="utf-8"?>
+'<?xml version="1.0" encoding="utf-8"?>
 <odoo>
   <record id='library_book_action' model='ir.actions.act_window'>
     <field name="name">Library Books</field>
@@ -331,7 +330,7 @@
         </search>
     </field>
   </record>
-</odoo>
+</odoo>'
 
 ## 第四章 創建ODOO的addons
   1. 進入到工作目錄即你要操作並放置新建的自定義模塊的插件目錄中：
