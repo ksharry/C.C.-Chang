@@ -5,7 +5,7 @@
 </table>
 
 ## 大綱
-#### 本書因過程中不太連貫，紀錄自己修改的CODE進行參考，本書資料來源:https://alanhou.org/odoo-14-creating-odoo-add-on-modules/
+#### 書中各章節不太連貫，紀錄自己修改的CODE進行參考，書本資料來源:https://alanhou.org/odoo-14-creating-odoo-add-on-modules/
 
 ## 第一章 安裝Odoo開發環境
   1. 安裝主要的依賴：
@@ -252,3 +252,85 @@
     │   └── views.xml
     └── wizard
         └── __init__.py
+        
+  6. 为模块添加一个 Python 文件models/library_book.py，代码如下：
+
+    from odoo import models, fields
+
+    class LibraryBook(models.Model):
+        _name = 'library.book'
+        name = fields.Char('Title', required=True)
+        date_release = fields.Date('Release Date')
+        author_ids = fields.Many2many(
+            'res.partner',
+            string='Authors'
+        )
+
+  7 models/__init__.py
+    
+    from . import library_book
+    
+  8. 编辑模块的Python初始化文件来在模块中加载models/目录：
+    
+    from . import models
+    
+  9. 第二种方式是查看PostgreSQL数据库中的表数据。
+
+    psql odoo-test
+    test-14.0# \d library_book;
+    \q
+    
+  10. 使用superuser可以不用設置權限就可以使用模組。
+  11. library_book.xml
+  
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <record id='library_book_action' model='ir.actions.act_window'>
+    <field name="name">Library Books</field>
+    <field name="res_model">library.book</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+  <menuitem name="My Library" id="library_base_menu" />
+  <menuitem name="Books" id="library_book_menu" parent="library_base_menu"     action="library_book_action"/>
+  <record id="library_book_view_form" model="ir.ui.view">
+    <field name="name">Library Book Form</field>
+    <field name="model">library.book</field>
+    <field name="arch" type="xml">
+        <form>
+            <group>
+                <group>
+                    <field name="name"/>
+                    <field name="author_ids" widget="many2many_tags"/>
+                </group>
+                <group>
+                    <field name="date_release"/>
+                </group>
+            </group>
+        </form>
+    </field>
+  </record>
+  <record id="library_book_view_tree" model="ir.ui.view">
+    <field name="name">Library Book List</field>
+    <field name="model">library.book</field>
+    <field name="arch" type="xml">
+        <tree>
+            <field name="name"/>
+            <field name="date_release"/>
+        </tree>
+    </field>
+  </record>
+  <record id="library_book_view_search" model="ir.ui.view">
+    <field name="name">Library Book Search</field>
+    <field name="model">library.book</field>
+    <field name="arch" type="xml">
+        <search>
+            <field name="name"/>
+            <field name="author_ids"/>
+            <filter string="No Authors" name="without_author" domain="[('author_ids','=',False)]"/>
+        </search>
+    </field>
+  </record>
+</odoo>
+
+## 第四章 創建ODOO的addons
+  1. 進入到工作目錄即你要操作並放置新建的自定義模塊的插件目錄中：
