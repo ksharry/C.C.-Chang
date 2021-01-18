@@ -98,7 +98,7 @@
     echo '{"name": "dummy", "installable": False}' > ~/odoo-dev/local-addons/dummy/__manifest__.py
     odoo/odoo-bin -d mydatabase --addons-path="odoo/odoo/addons,odoo/addons,~/odoo-dev/local-addons" --save -c ~/odoo-dev/my-instance.cfg --stop-after-init
 
-   4. 標準化目錄布局
+   3. 標準化目錄布局
      + 每個環境創立一個目錄：
    
       mkdir ~/odoo-dev/projectname
