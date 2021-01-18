@@ -10,13 +10,14 @@
 #### 第一章 安裝Odoo開發環境
   1. 運行如下命令来安装主要依赖：
   
-    + sudo apt-get update
+    +
+     sudo apt-get update
     
-    + sudo apt install git python3-pip build-essential wget python3-dev python3-venv python3-wheel libxslt-dev libzip-dev libldap2-dev libsasl2-dev python3-setuptools -y
+     sudo apt install git python3-pip build-essential wget python3-dev python3-venv python3-wheel libxslt-dev libzip-dev libldap2-dev libsasl2-dev python3-setuptools -y
     
-    + sudo apt-get update
+     sudo apt-get update
     
-    + sudo apt install git python3-pip build-essential wget python3-dev python3-venv python3-wheel libxslt-dev libzip-dev libldap2-dev libsasl2-dev python3-setuptools -y
+     sudo apt install git python3-pip build-essential wget python3-dev python3-venv python3-wheel libxslt-dev libzip-dev libldap2-dev libsasl2-dev python3-setuptools -y
     
   2. 下載並安装wkhtmltopdf：
   
