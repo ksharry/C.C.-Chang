@@ -371,4 +371,4 @@
   16. 内置的模板位于./odoo/cli/templates，可使用~/odoo-dev/odoo/odoo-bin scaffold -t "自定義路徑" my_module3，此處使用了default模板，但也可以為網站主題編寫的theme模板。
   
 ## 第四章 應用模型
-  1. 
+  1. 相關程式記錄在:https://github.com/ksharry/my_library
