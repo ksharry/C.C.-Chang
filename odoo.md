@@ -210,6 +210,7 @@
     sudo -i -u postgres
 
 16. odoo14調整port
+  + sudo ufw enable  啟用
   + sudo apt-get install ufw     安裝
   + sudo ufw default allow/deny   開啟
   + sudo ufw status numbered    查看狀態
