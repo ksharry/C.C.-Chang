@@ -186,7 +186,7 @@
 
 12. 直接在linux安裝指令 :python3 odoo-bin -i demo_expense_tutorial_v1 -d odoo -c /home/dsc/odoo/config/odoo.conf
 
-13. 查看開放port sudo ufw status verbose  , 新增port:sudo ufw allow 22/tcp
+13. 
 
 14. jupyter 64位元出現sqlite3問題，https://www.sqlite.org/download.html ，下載Precompiled Binaries for Windows對應的位元數放入DLLs檔案即可。
 
@@ -200,7 +200,7 @@
   + 調整pg_hba.conf 0.0.0.0/0  # IPv4 local connections:   host    all             all             0.0.0.0/0            md5
   + 調整pg_hba.conf 0.0.0.0/0  # replication privilege.    host    replication     all             0.0.0.0/0            md5
   + 開放postgresql.conf    listen_addresses = '*'
-  + 以下為測試連結postgresql
+  + 重啟  /etc/init.d/postgresql restart
   > 
     ps aux  | grep 'postgres *-D'
     service postgresql status
@@ -214,4 +214,5 @@
   + sudo apt-get install ufw     安裝
   + sudo ufw default allow/deny   開啟
   + sudo ufw status numbered    查看狀態
+  + sudo ufw status verbose     查看狀態
   + sudo ufw allow 80/tcp / sudo ufw allow 443/tcp
