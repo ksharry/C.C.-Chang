@@ -206,7 +206,7 @@
     service postgresql status
     port sudo ufw status verbose
     sudo -u postgres psql 
-    ALTER USER odoo14 WITH PASSWORD 'odoo14';
+    ALTER USER postgres WITH PASSWORD 'postgres';
     sudo -i -u postgres
 
 16. odoo14調整port
