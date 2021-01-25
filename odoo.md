@@ -7,7 +7,7 @@
 3. 新增金鑰ssh-add ~/.ssh/id_rsa
 4. 複製金鑰，vi ~/.ssh/id_rsa.pub
 5. 到github的設定，新增SSH的金鑰。
-6. linux設定  git config --global user.name “lukeyan”  ;  git config --global user.email xxx@gmail.com
+6. linux設定  git config --global user.name “ksharry”  ;  git config --global user.email w461059@hotmail.com
 7. 連線到  ssh -T git@github.com   成功訊息:Hi github! You've successfully authenticated
 8. 上傳程式碼，先前要先去新增repositories。
   > 
@@ -15,7 +15,7 @@
     git status #獲取需要上傳的檔案 
     git add . # .表示全新增， git add README.md 表示只新增說明檔案
     git commit -m "add new files" # a commit
-    git remote add origin git@github.com:yourgithubname/yourrepositoryname
+    git remote add origin git@github.com:ksharry/odoo14-cookbook
     git push -u origin master
 
 <table>
