@@ -7,3 +7,7 @@
    + 網路大魚號的odoo的視頻 https://i.youku.com/u/UMTY1ODg5OTQ5Ng==?spm=a2h0k.11417342.soresults.dname
 3. ubuntu使用
    + QT程序安裝 :https://ubuntuqa.com/zh-tw/article/8017.html
+4. 韋禮安跟你鳥鳥天:EP53 A/DA 阿達 
+   + 每天提醒自己歸0。
+   + 
+
