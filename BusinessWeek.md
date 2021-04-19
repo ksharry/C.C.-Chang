@@ -349,3 +349,18 @@
     + If the shoe fit：就把負評當補品
     + If worst comes to worst：假設最糟的發生
     + If it's not one thing,it's another：一波未平，一波又起
+
+
+<table>
+    <tr>
+        <td>1744_傲慢的代價</td>
+    </tr>
+</table>
+
+1.  共榮植物-番茄與韭菜
+2.  新部門用KMI(Key Milestone Index，關鍵里程碑指標)
+    + 新創事業的第一輪必須先證明這個商模的有效性
+    + 接下來則是如何放量、創造規模
+    + 第三個階段才是獲利的極大化。
+4.  偽成功學-成功無法複製。
+5.  半導體設備廠-蝕刻等濕製程，弘塑（3131）、辛耘（3583）
