@@ -370,3 +370,11 @@
     + to resurface：重新出現
     + contingency：意外事件
 
+<table>
+    <tr>
+        <td>1742_戰勝負人口時代</td>
+    </tr>
+</table>
+
+1.  圓剛董事長郭重松-備多力分的困境
+2.  唐鳳-RAY(Rescue Action by Youth)行動專案-搶救政府專案
