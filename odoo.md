@@ -1,7 +1,23 @@
 #### 全域紀錄 
 1. vm tool 安裝 用虛擬光碟下載到目錄後,使用sudo perl vmware-indatll.pl進行安裝
 
-#### github使用方式
+#### github使用方式(win10)
+1. https://git-scm.com/downloads
+2. 打開Git Bash
+3. ssh-keygen -t rsa -C 'Your email address'
+4. ssh-add ~/.ssh/id_rsa  or   ssh-agent bash
+5. 到github的設定，新增SSH的金鑰。
+6. 上傳程式碼，先前要先去新增repositories。
+  > 
+    echo "# googlesheets" >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin git@github.com:ksharry/googlesheets.git
+    git push -u origin main
+
+#### github使用方式(ubuntu)
 1. sudo apt-get install git
 2. 產生金鑰ssh-keygen -t rsa -b 4096 -C "your_email@example.com" ;  確認指令:eval "$(ssh-agent -s)"
 3. 新增金鑰ssh-add ~/.ssh/id_rsa
