@@ -252,3 +252,4 @@
     + vi authorized_keys
     + 貼上XSHELL產生的金鑰
   + 設定XSHELL連線(PORT:22/IP/PUBLIC KEY連線)
+  + 到GCP 使用sudo passwd username 修改使用者密碼
