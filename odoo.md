@@ -244,3 +244,11 @@
   + sudo ufw status numbered    查看狀態
   + sudo ufw status verbose     查看狀態
   + sudo ufw allow 80/tcp / sudo ufw allow 443/tcp
+
+17. GCP/XSHELL 使用SSH連線
+  + XSHELL上使用工具/新使用者金鑰精靈(2048/RSA/空白)產生金鑰
+  + 上傳到GOOGLE指令
+    + cd ~/.ssh
+    + vi authorized_keys
+    + 貼上XSHELL產生的金鑰
+  + 設定XSHELL連線(PORT:22/IP/PUBLIC KEY連線)
